@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <link href="bootstrap.css" rel="stylesheet">
+    </link>
+</head>
+
+<body>
+    <!--  
+            Primary (blue)
+            Success (Green)
+            Danger  (Red)
+            Warning (Yellow)
+            Light
+            White
+            Dark
+            Secondary (Grey)
+        
+        -->
+    <div class="container">
+        <table class="table table-striped text-center table-hover fs-3 text-success">
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td colspan="2" rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+            </tr>
+        </table>
+        <hr />
+
+        <div class="row bg-dark">
+            <p class="offset-md-1 col-md-4 text-success">I need to make a multi-column layout only for the purpose of printing. So now I'm using
+                Chromium 85 but I can
+                switch to anything else because I only need to provide support for a single browser. I'm also free to
+                use
+                pretty much any CSS/JS library if it may help to solve the issue.</p>
+            <p class="col-md-3 text-danger">I'm trying to implement a very basic multi-column layout. Everything works fine except
+                for the fact that I
+                can not avoid widowed headers. The break-after: avoid instruction does not work for some reason.</p>
+            <p class="col-md-4 text-info">The recipe will be much simpler if you only need to consider HTML output, because
+                arranging HTML elements
+                side by side is relatively simple via CSS. It will be even simpler if you only need to arrange the text
+                output of a code chunk side by side. Below is the first example:</p>
+        </div>
+    </div>
+</body>
+
+</html>

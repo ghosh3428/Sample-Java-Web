@@ -1,0 +1,40 @@
+html -> hypertext markup language
+
+<> -> opening tag
+
+</> -> closing tag
+
+
+KOLKATA
+
+
+<html>
+	<head>
+		<title>
+		<style>
+		<script>
+		<link>
+		<base>
+		<meta>	
+		
+	</head>
+
+	<body>
+
+		<h1>....<h6>
+		<p>
+		<b>
+		<u>
+		<i>
+		<img>
+		<audio>
+		<video>
+
+		List
+		<ol> -> Ordered List
+		<ul> -> unordered List
+
+		<li> ->List Item
+	</body>
+
+</html>

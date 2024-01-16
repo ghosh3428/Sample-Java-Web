@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width:100%;
+            border-color: yellowgreen;
+            border-width: 5px;
+        }
+        th
+        {
+            border-width: 3px;
+            color:gold;
+        }
+
+        body
+        {
+            background-color: crimson;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="1">
+        <caption>Student Details </caption>
+        <tr>
+            <th>Roll Number</th>
+            <th>Student Name</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Rohan Mishra</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sumit Das</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kapil Sharma</td>
+            <td>62</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sanjay Sen</td>
+            <td>61</td>
+        </tr>
+    </table>
+    <hr/>
+    <table border="1" >
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <th rowspan="6" style="width:16%">Hours</th>
+            <th style="width:16%">Mon</th>
+            <th style="width:16%">Tue</th>
+            <th style="width:16%">Wed</th>
+            <th style="width:16%">Thu</th>
+            <th style="width:16%">Fri</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td colspan="2" rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+        </tr>
+    </table>
+</body>
+
+</html>
